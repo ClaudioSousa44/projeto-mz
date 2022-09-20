@@ -1,5 +1,5 @@
 # projeto-mz
-![](./image/fotodosite.png)
+![](./images/fotodosite.PNG)
 
 [Clique aqui](https://claudiosousa44.github.io/projeto-mz/) para acessar o projeto.
 
