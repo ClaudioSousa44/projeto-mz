@@ -1,14 +1,21 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Site para venda de produtos cosméticos">
     <title>Macs Z</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
-    <link rel="stylesheet"  href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/5ed2d43b7d.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
     <header>
         <div class="header-logo">
@@ -16,43 +23,85 @@
         </div>
         <div class="header-nav">
             <ol>
-                <li><a href="#">HOME</a></li>
-                <li><a href="#">PRODUTOS</a></li>
-                <li><a href="#">ONGS</a></li>
-                <li><a href="#">PARCERIAS</a></li>
-                <li><a href="#">SOBRE NÓS</a></li>
-                <li><a href="#"> BUSCAR</a></li>
+                <li><a href="#" aria-label="Link para home ">HOME</a></li>
+                <li><a href="#" aria-label="Link para PRODUTOS ">PRODUTOS</a></li>
+                <li><a href="#" aria-label="Link para  ONGS">ONGS</a></li>
+                <li><a href="#" aria-label="Link para PARCERIAS">PARCERIAS</a></li>
+                <li><a href="#" aria-label="Link para SOBRE NÓS">SOBRE NÓS</a></li>
+                <li><a href="#" aria-label="Link para BUSCAR"> BUSCAR</a></li>
             </ol>
         </div>
         <DIV class="header-registro">
             <ol>
-                <li><a href="#">ENTRAR</a></li>
-                <li><a href="#">REGISTRAR-SE</a></li>
+                <li><a href="#" aria-label="Link para entrar">ENTRAR</a></li>
+                <li><a href="#" aria-label="Link para REGISTRAR-SE">REGISTRAR-SE</a></li>
             </ol>
         </DIV>
 
     </header>
     <main>
         <div class="main-img">
-            <!--<img class="foto__principal" src="./images/image.png" alt="Foto de PARCERIAS"> -->
+            <div class="main-text">
+                <div class="main-text-promo">
+                    <span class="main-span-text">GANHE <span class="main-span-text-transparent">30% DE DESCONTO</span>
+                        EM TODOS PERFUMES.</span>
+
+                </div>
+                <div class="main-text-compre">
+                    <a href="#" aria-label="Link para comprar agora">COMPRAR AGORA</a>
+
+                </div>
+
+
+            </div>
+            <div class="main-images">
+                <div class="image-1">
+                    <img class="image-rosa" src="./images/image1.png" alt="Perfume 1">
+
+                </div>
+                <div class="image-2">
+                    <img class="image-azul" src="./images/image2.png" alt="Perfume 2">
+
+                </div>
+
+            </div>
+            <div class="main-setas">
+               <a href="#" class="seta-esquerda" aria-label="Proximo produto">
+                <i class="fas fa-angle-left"></i>
+
+               </a>
+               <a href="#" class="seta-direita" aria-label="Proximo produto">
+                <i class="fas fa-angle-right"></i>
+
+               </a>
+
+            </div>
+
         </div>
-        
+
     </main>
     <footer>
         <fieldset>
             <legend>ESCOLHA SUA MARCA</legend>
             <ol class="lista-marcas">
-                <li><a href="#"><img class="img-herbia" src="./images/herbia.png" alt="Logo herbia"></a></li>
-                <li><a href="#"><img class="img-mz" src="./images/macsz3.png" alt="Logo macsz2"></a></li>
-                <li><a href="#"><img src="./images/beyoung.png" alt="Logo beyoung"></a></li>
-                <li><a href="#"><img src="./images/skala.png" alt="Logo skala"></a></li>
-                <li><a href="#"><img src="./images/griffus.png" alt="logo griffus"></a></li>
-                <li><a href="#"><img src="./images/arvensus.png" alt="logo arvensis"></a></li>
-                <li><a href="#"><img src="./images/organico.png" alt="logo organico"></a></li>
+                <li><a href="#" aria-label="Link para herbia"><img class="img-herbia" src="./images/herbia.png"
+                            alt="Logo herbia"></a></li>
+                <li><a href="#" aria-label="Link para macsz2"><img class="img-mz" src="./images/macsz3.png"
+                            alt="Logo macsz2"></a></li>
+                <li><a href="#" aria-label="Link para beyoung"><img src="./images/beyoung.png" alt="Logo beyoung"></a>
+                </li>
+                <li><a href="#" aria-label="Link para skala"><img src="./images/skala.png" alt="Logo skala"></a></li>
+                <li><a href="#" aria-label="Link para griffus"><img src="./images/griffus.png" alt="logo griffus"></a>
+                </li>
+                <li><a href="#" aria-label="Link para arvensis"><img src="./images/arvensus.png"
+                            alt="logo arvensis"></a></li>
+                <li><a href="#" aria-label="Link para organico"><img src="./images/organico.png"
+                            alt="logo organico"></a></li>
             </ol>
         </fieldset>
 
     </footer>
-    
+
 </body>
+
 </html>
