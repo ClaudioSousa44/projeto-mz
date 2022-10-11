@@ -60,7 +60,7 @@ main{
     margin-left: 30px;
     height: 69vh;
     width: 98vw;
-    background-image: url(/images/image.png);
+    background-image: url(/images/fundo.png);
     background-repeat: no-repeat;
     display: flex;
 }
